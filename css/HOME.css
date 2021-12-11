@@ -78,7 +78,7 @@ h1.underline::after{
 }
 /* BIG IMG */
 section.banner{
-    background-image: url(/img/wallpaper.jpeg);
+    background-image: url(./img/wallpaper.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
