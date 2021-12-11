@@ -173,6 +173,8 @@ div.Khoi-phai{
         margin: 10px;
         font-size: 12px;
         position: relative;
+        border-radius: 16px;
+        overflow: hidden;
     }
     .item > h2{
         font-size: 19px;
@@ -195,7 +197,6 @@ div.Khoi-phai{
     .item > img{
         width: 100%;
         border-radius: 2px;
-
     }
     .item-buy{
         margin-left: 12px;

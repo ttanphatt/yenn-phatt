@@ -199,19 +199,22 @@ section.choose{
     }
     .item-img{
         display: flex;
+        align-items: center;
+        /* gap: 10px; */
     }
     .item-anhlon{
-        width: 76%;
-        margin-right: 10px;
+        flex: 3;
+        padding: 0 20px 0 10px;
     }
     .item-anhnho{
-        width: 24%;
+        flex: 1;
     }
     .item-img-duoi{
-        width: 100%;
         display: flex;
+        /* gap: 10px; */
     }
     .item-img-duoi div{
+        flex: 1;
         margin-right: 10px;
     }
     .item-img-duoi >div:last-child{
