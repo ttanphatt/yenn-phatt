@@ -1,0 +1,314 @@
+html{
+    scroll-behavior: smooth;
+}
+header{ 
+    font-size: 20px;
+    text-transform:uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+/*      MENU         */
+ul.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(12, 11, 11);
+    justify-content: center;
+}
+
+.subcontent{
+    display: none;
+    z-index: 99;
+}
+.sub:hover .subcontent{
+    display: inline-block;
+    position: absolute;
+    
+}
+nav > ul.menu{
+    display: flex;
+    
+}
+ul.menu > li{
+    max-width: 200px;
+}
+ul.menu > li > a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: rgb(170, 170, 170);
+    font-size: 20px;
+}
+ul.menu > li a{
+    display: flex;
+    border-radius: 3px; 
+}
+div.anhtieude img{
+    width: 100%;
+    height: 365.729;
+}
+
+ul.menu > li > a:hover{
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+    color: white;
+}
+li.logo-header >img{
+    width: 80%;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 0px;
+
+}
+li.logo-header{
+    text-align: center;
+}
+
+/* BANNER */
+
+section.banner{
+}
+.banner img{
+    width: 100%;
+}
+
+
+/*  SELECTION */
+
+section.main-section{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+}
+div.Khoi-ben2{
+    width: 5%;
+}
+div.Khoi-ben1{
+    width: 15%;
+}
+
+div.Khoi-phai{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 80%;
+    
+}
+  
+    .order{
+        margin: 10px 150px 10px 40px;
+        
+    }
+    .order-top{
+        display: flex;
+        border: solid 1.5px black;
+        border-radius: 50px;
+    }
+    .order-img{
+        padding: 10px;
+        width: 14%;
+    }
+    .order-img >img {
+        width: 100%;
+    }
+    .order-main{
+        margin-left: 10px;
+        width: 86%;
+    }
+    .ctrl1{
+        width: 20%;
+    }
+    .ctrl2{
+        width: 60%;
+    }
+    .ctrl input{
+        border-radius: 10px;
+        border: solid 1px black;
+    }
+    .c5{
+        width: 5%;
+    }
+    .c20{
+        width: 20%;
+    }
+    .c65{
+        width: 65%;
+    }
+    .order-item{
+        display: flex;
+        margin: 10px 50px;
+        text-align: center;
+        border: solid 1.5px black;
+        border-radius: 50px;
+        background-color:#ffa557;
+        color: black;
+        padding: 5px 10px;
+    }
+    .order-item div{
+        margin: auto 0;
+    }
+    .order-item  input{
+        border-radius: 10px;
+        border: solid 1px black;
+        padding: 2px 10px;
+    }
+    .active{
+        background-color: #EA8025;
+    }
+    /* SAN PHAM */
+    .Khoi-phai > h2{
+        text-indent: 40px;
+        font-family:monospace;
+        font-weight: bold;
+    }
+    div.items-tsua, div.items-coffee, div.items-daxay, div.items-tea, div.items-an{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 33px;
+    }
+    .item{
+        width: 26%;
+        background-color:white;
+        margin: 10px;
+        font-size: 12px;
+        position: relative;
+    }
+    .item > h2{
+        font-size: 19px;
+        font-family: monospace;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .item > h3{
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .item > h4{
+        padding-bottom: 10px;
+    }
+
+    div.item:hover{
+        outline:auto;
+     }
+    .item > img{
+        width: 100%;
+        border-radius: 2px;
+
+    }
+    .item-buy{
+        margin-left: 12px;
+        border-radius: 30px;
+        font-size: 14px;
+        padding: 8px 8px;
+        background-color:#EA8025; 
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+        font-family:'Courier New', Courier, monospace;
+        text-decoration: none;
+      
+    
+    }
+    .item-buy:hover{
+        color: #e74c3c;
+        background-color: white;
+        text-decoration: none;
+
+        
+    }
+    div.item:hover{
+        transform: translateY(-15px);
+    }
+    div.item{
+        transition: all 0.5s ease;
+    }
+    div.item > h3{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color:#EA8025;
+    }
+    .item > h2, .item > h3{
+        text-indent: 15px;
+    }
+    .item-new{
+      
+        background-color: #FF3D00;
+        color: #FEFFFE;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 7px 7px;
+        border-radius: 10px 20px;
+        display: inline-block;
+        position: absolute;
+        top:0;
+    }
+
+
+/* FOOTER */
+.footer h4{
+    font-weight: unset;
+    font-size: 17px;
+}
+.footer h4 a{
+    color:  #333340;
+}
+.footer h4:hover{
+    
+    color:  gray;
+    transition: all 0.5s ease;
+    transform: translateY(-15%);
+}
+.footer h4 a:hover{
+    text-decoration: none;
+}
+section.footer{
+    background-image: url(/img/bg-footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top: 1.5px solid #ECECEC;
+}
+.my-footer{
+    display:flex;
+    padding: 50px 50px;
+}
+.my-footer h3{
+    text-transform:uppercase;
+}
+.col15{
+    width: 15%;
+    justify-content: center;
+    margin: auto 0;;
+}
+.col20{
+    width: 20%;
+}   
+    .over{
+        color: white;
+    }
+.col15 img{
+    width: 60%;
+    border-radius: 50%;
+}
+.col22{
+    width: 22.5%;
+}
+
+.link-more, .contact-more, .socials-more{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+
+.end{
+    
+    background-color: rgb(12, 11, 11);
+    padding: 10px;
+    padding-left: 50px;
+    color: rgb(170, 170, 170);
+
+}
+.end h4{
+    font-size: 13px;
+}

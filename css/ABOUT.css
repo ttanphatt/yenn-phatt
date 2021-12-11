@@ -1,0 +1,335 @@
+html{
+    scroll-behavior: smooth;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+#demo{
+    width: 100%;
+    margin: 0 auto;
+}
+/*  */
+header{ 
+    font-size: 20px;
+    text-transform:uppercase;
+    position: fixed;   
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/*      MENU         */
+ul.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(12, 11, 11);
+    justify-content: center;
+}
+
+.subcontent{
+    display: none;
+    z-index: 99;
+}
+.sub:hover .subcontent{
+    display: inline-block;
+    position: absolute;
+    
+}
+nav > ul.menu{
+    display: flex;
+    
+}
+ul.menu > li{
+    max-width: 200px;
+}
+ul.menu > li > a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: rgb(170, 170, 170);
+   
+}
+ul.menu > li a{
+    display: flex;
+    border-radius: 3px; 
+}
+div.anhtieude img{
+    width: 100%;
+    height: 365.729;
+}
+
+ul.menu > li > a:hover{
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+    color: white;
+}
+li.logo-header >img{
+    width: 80%;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 0px;
+
+}
+li.logo-header{
+    text-align: center;
+}
+
+/* BANNER */
+
+section.banner{
+    /*animation: doinen  5s infinite;*/
+    background-size: 100%;
+    padding-top: 50px;
+}
+section.banner img{
+    /*visibility: hidden;*/
+    width: 100%;
+}
+
+/* Khái quát - choose */
+section.choose{
+    margin: 40px;
+}
+.choose-sub{
+    display: flex;
+    justify-content: center;
+}
+.choose-sub > h3{
+    background-color: #ea8025;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border: #ff7700 1.5px solid;
+    display:block;
+    font-size: 20px;
+}
+.choose-sub > h3 >a{
+    display:block;
+    text-decoration: none;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.choose-sub > h3:hover{
+    background-color: white;
+
+}
+.choose-sub > h3 > a:hover{
+    color:#ea8025;
+}
+
+/* NỘI DUNG */
+
+    /*  THƯƠNG HIỆU */
+    section h2{
+        font-size: 30px;
+    }
+
+    h2.underline::after{
+        content: "";
+        height: 3px;
+        width: 18%;
+        border-radius: 20px;
+        display: block;
+        background-color: black;
+    }
+    h3.underline::after{
+        content: "";
+        height: 3px;
+        width: 10%;
+        border-radius: 20px;
+        display: block;
+        background-color: #ea8025;
+        margin: 5px auto;
+    }
+    section.container-brand, section.container-coffee, section.container-tea{
+        padding: 20px 120px;
+    }
+    div.Brand{
+        background-image: url(/img/3.png), url(/img/4.png);
+        background-size: 471px, 300px;
+        background-position: top 0 right -15px, top 65% left 0;
+        background-repeat: no-repeat;
+        background-color: rgb(20, 19, 19);
+        color:rgb(238, 238, 238);
+        padding: 30px 0;
+    }
+    .Brand > h3{
+        text-align: center;
+        color:white;
+        font-size: 23px;
+        padding: 10px 0;
+    }
+    .item-dauan{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .item-dauan > h3{
+        width: 18%;
+        font-size: 20px;
+        text-align: center;
+        margin: auto 0;
+        color: #ea8025;
+    }
+    .item-dauan > p{
+        line-height: 1.2;
+        text-align: justify;
+        width: 80%;
+        margin: auto 0;
+        padding-right: 30px;
+        font-size: 15px;
+        font-family:'Courier New', Courier, monospace;        
+    }
+    .item-chung{
+        padding: 0px 140px;
+    }
+    .item-chung > h4{
+        color:rgb(238, 238, 238);
+        font-family:'Courier New', Courier, monospace;        
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    /* C0FFEE */ 
+    .container-coffee img{
+        width: 100%;
+        margin-top: 10px;
+
+    }
+    .item-img{
+        display: flex;
+    }
+    .item-anhlon{
+        width: 76%;
+        margin-right: 10px;
+    }
+    .item-anhnho{
+        width: 24%;
+    }
+    .item-img-duoi{
+        width: 100%;
+        display: flex;
+    }
+    .item-img-duoi div{
+        margin-right: 10px;
+    }
+    .item-img-duoi >div:last-child{
+        margin-right: 0;
+    }
+    div.coffee{
+        background-image: url(https://www.cafeongbau.com/images/leaf-left.svg);
+        background-size: 250px;
+        background-repeat: no-repeat;
+        background-color: #637381;
+        background-position: left -62px top 2px;
+        color:white;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 15px;
+        padding: 20px 20px;
+        text-align: justify;
+    }
+
+
+    /* TEA */
+    .tea{
+        background-image: url(https://www.cafeongbau.com/images/leaf-right.svg);
+        background-size: 250px;
+        background-repeat: no-repeat;
+        background-position: right -66px bottom 10px;
+
+        display: flex;
+        background-color: #637381;
+    }
+    div.tea-img{
+        width: 40%;
+        margin: auto 0;
+    }
+    .tea-sub{
+        
+        font-size: 15px;
+        text-align: justify;
+        width: 60%;
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+        margin: auto 20px;
+    }
+    .tea-sub >h4{
+        color: #55c9ff;
+        
+    }
+    .tea-img > img{
+        padding: 40px;
+        width: 70%;
+        justify-content: center;
+
+    }
+  /* FOOTER */
+.footer h4{
+    font-weight: unset;
+    font-size: 17px;
+}
+.footer h4 a{
+    color:  #333340;
+}
+.footer h4:hover{
+    
+    color:  gray;
+    transition: all 0.5s ease;
+    transform: translateY(-15%);
+}
+.footer h4 a:hover{
+    text-decoration: none;
+}
+section.footer{
+    background-image: url(/img/bg-footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top: 1.5px solid #ECECEC;
+}
+.my-footer{
+    display:flex;
+    padding: 50px 50px;
+}
+.my-footer h3{
+    text-transform:uppercase;
+}
+.col15{
+    width: 15%;
+    justify-content: center;
+    margin: auto 0;;
+}
+.col20{
+    width: 20%;
+}   
+    .over{
+        color: white;
+    }
+.col15 img{
+    width: 60%;
+    border-radius: 50%;
+}
+.col22{
+    width: 22.5%;
+}
+
+.link-more, .contact-more, .socials-more{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+
+.end{
+    
+    background-color: rgb(12, 11, 11);
+    padding: 10px;
+    padding-left: 50px;
+    color: rgb(170, 170, 170);
+
+}
+.end h4{
+    font-size: 13px;
+    text-align: center;
+}
