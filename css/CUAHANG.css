@@ -189,6 +189,8 @@ section.all-store{
     display: flex;
     width: 47%;
     margin: 10px;
+    border-radius: 8px;
+    
 }
 .loca-img{
     width: 65%;
@@ -471,6 +473,7 @@ section.footer{
     padding: 10px;
     padding-left: 50px;
     color: rgb(170, 170, 170);
+    text-align: center;
 
 }
 .end h4{

@@ -104,7 +104,7 @@ section.choose{
     display:block;
     font-size: 20px;
 }
-.choose-sub > h3 >a{
+.choose-sub > h3 > a{
     display:block;
     text-decoration: none;
     color:white;
